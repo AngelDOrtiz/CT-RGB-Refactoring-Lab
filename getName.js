@@ -4,3 +4,4 @@ export function getName(obj) {
 
   return name;
 }
+
