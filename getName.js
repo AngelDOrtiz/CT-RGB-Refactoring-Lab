@@ -1,4 +1,6 @@
-export function getName(arr) {
-  const  { name } = arr;
+export function getName(obj) {
+  const { name } = obj;
+ 
+
   return name;
 }
