@@ -29,3 +29,11 @@ describe('copyAndPush function', () => {
   
 
 // });
+
+describe('capitalizeAndFilter', () => {
+  it('create a function that takes an array of strings capitalize all strings and filter out any string that starts with the letter F/f.', () => {
+    const reg = /^A-E, G-Z/;
+    const newString = new RegExp(reg);
+    expect(newString).toEqual(reg);
+  });
+});
