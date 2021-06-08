@@ -12,9 +12,20 @@ describe('gets name from an object', () => {
 });
 
 describe('copyAndPush function', () => {
-  test('returns a new array with all the items in the original array and a new item pushed to the end', () => {
+  it('returns a new array with all the items in the original array and a new item pushed to the end', () => {
     const numbers = [1, 2, 3];
     const newNumbers = copyAndPush(numbers, 4);
     expect(newNumbers).toEqual([1, 2, 3, 4]);
   });
 });
+
+// describe('copyAndPush function number 2', () => {
+//   it('returns a new array with all the items in the original array and keeps the original array', () => {
+//     const numbers = [1, 2, 3];
+//     const newNumbers = copyAndPush(numbers, 4);
+//     expect(newNumbers).toEqual([1, 2, 3, 4]);
+//     expect (numbers).toEqual([1, 2, 3]);
+//   });
+  
+
+// });
